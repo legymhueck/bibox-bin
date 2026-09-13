@@ -1,0 +1,17 @@
+pkgbase = bibox-bin
+	pkgdesc = Official client for Westermann textbooks
+	pkgver = 8.4.0
+	pkgrel = 1
+	url = https://www.bibox.schule
+	arch = x86_64
+	license = custom
+	depends = org.freedesktop.secrets
+	depends = gtk3
+	depends = ffmpeg
+	depends = pango
+	depends = inetutils
+	noextract = bibox-bin-8.4.0.deb
+	source = bibox-bin-8.4.0.deb::https://static.bibox2.westermann.de/apps/linux-deb
+	b2sums = b9b862332d4478cd16fdbc06a0c880e1ae0e979dd70b2891172ce07e4109c7f6dc55e44837ddf34e39a260d4bac69a72b09df30876e9730aeb7bafc39357f5d2
+
+pkgname = bibox-bin
